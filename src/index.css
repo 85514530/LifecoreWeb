@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #34C759;
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #F0F9F4;
+  --color-secondary-foreground: #1A1A1A;
+  --color-background: #F0F9F4;
+  --color-foreground: #1A1A1A;
+  --color-card: #ffffff;
+  --color-card-foreground: #1A1A1A;
+  --color-muted: #f4f4f5;
+  --color-muted-foreground: #71717a;
+  --color-border: #e4e4e7;
+  --radius: 0.5rem;
+}
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
