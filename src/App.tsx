@@ -9,6 +9,7 @@ const Home = lazy(() => import("@/pages/Home"))
 // Placeholder for Product and About pages (to be created)
 const Product = lazy(() => import("@/pages/Product"))
 const About = lazy(() => import("@/pages/About"))
+const Privacy = lazy(() => import("@/pages/Privacy"))
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
                 <Route path="product" element={<Product />} />
                 <Route path="about" element={<About />} />
               </Route>
+              <Route path="/privacy" element={<Privacy />} />
             </Routes>
           </Suspense>
         </LazyMotion>
