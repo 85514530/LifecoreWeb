@@ -17,7 +17,7 @@ export default function Footer() {
                         </p>
                         <div className="mt-6 space-y-2 text-sm text-muted-foreground">
                             <p><strong>Address:</strong> UNIT 617, 6/F KING CTR 5-9 KA HING RD KWAI CHUNG HONG KONG</p>
-                            <p><strong>Tel:</strong> <span className="opacity-40">+852 95341938</span></p>
+                            <p><span className="opacity-40">Tel: +852 95341938</span></p>
                         </div>
                     </div>
                     <div>
