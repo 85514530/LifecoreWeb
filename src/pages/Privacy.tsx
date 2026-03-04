@@ -89,6 +89,7 @@ export default function Privacy() {
           <p>If you have any questions about this Privacy Policy, please contact us:</p>
           <ul className="list-disc pl-5 mt-4 space-y-2 mb-10">
             <li><strong>By email:</strong> <a href="mailto:cardlife.hk@gmail.com" className="text-primary underline">cardlife.hk@gmail.com</a></li>
+            <li><strong>By phone:</strong> <span className="opacity-40">+852 95341938</span></li>
             <li><strong>By visiting our registered office:</strong> UNIT 617, 6/F KING CTR 5-9 KA HING RD KWAI CHUNG HONG KONG</li>
           </ul>
         </article>

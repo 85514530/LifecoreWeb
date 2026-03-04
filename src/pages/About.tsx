@@ -39,10 +39,18 @@ export default function About() {
                         </p>
 
                         <div className="my-12 p-8 bg-secondary/30 rounded-2xl border border-border">
-                            <p className="mb-0 text-center text-lg">
+                            <p className="text-center text-lg mb-6">
                                 At CardLife, we believe in providing our valued customers with a secure, caring, and efficient experience,
                                 ensuring that you can sell any gift card without worrying about security or rates.
                             </p>
+                            <div className="border-t border-border/50 pt-6">
+                                <h3 className="text-xl font-bold mb-4 text-center">Company Information</h3>
+                                <div className="space-y-2 text-muted-foreground text-center">
+                                    <p>CardLife is operated by <strong>Hong Kong Cardlife Technology Co., Limited</strong></p>
+                                    <p><strong>Registered Address:</strong> UNIT 617, 6/F KING CTR 5-9 KA HING RD KWAI CHUNG HONG KONG</p>
+                                    <p><strong>Contact Number:</strong> <span className="opacity-40">+852 95341938</span></p>
+                                </div>
+                            </div>
                         </div>
 
                         <div className="grid md:grid-cols-3 gap-8 mt-16">

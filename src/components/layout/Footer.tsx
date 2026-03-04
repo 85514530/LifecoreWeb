@@ -13,24 +13,30 @@ export default function Footer() {
                             <span className="text-xl font-bold tracking-tight text-foreground">CardLife</span>
                         </Link>
                         <p className="mt-4 text-sm text-muted-foreground">
-                            Most reliable gift card trading platform. Safe, fast, and secure.
+                            Operated by Hong Kong Cardlife Technology Co., Limited. A leading platform for secure and efficient gift card trading.
                         </p>
+                        <div className="mt-6 space-y-2 text-sm text-muted-foreground">
+                            <p><strong>Address:</strong> UNIT 617, 6/F KING CTR 5-9 KA HING RD KWAI CHUNG HONG KONG</p>
+                            <p><strong>Tel:</strong> <span className="opacity-40">+852 95341938</span></p>
+                        </div>
                     </div>
                     <div>
                         <h3 className="text-sm font-semibold text-foreground">Product</h3>
                         <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
-                            <li><Link to="/product" className="hover:text-primary">Features</Link></li>
+                            <li><Link to="/product" className="hover:text-primary transition-colors">Features</Link></li>
                         </ul>
                     </div>
                     <div>
                         <h3 className="text-sm font-semibold text-foreground">Company</h3>
                         <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
-                            <li><Link to="/about" className="hover:text-primary">About Us</Link></li>
+                            <li><Link to="/about" className="hover:text-primary transition-colors">About Us</Link></li>
+                            <li><Link to="/privacy" className="hover:text-primary transition-colors">Privacy Policy</Link></li>
                         </ul>
                     </div>
                 </div>
-                <div className="mt-8 border-t pt-8 text-center text-xs text-muted-foreground">
-                    &copy; {new Date().getFullYear()} CardLife. All rights reserved.
+                <div className="mt-8 border-t pt-8 text-center text-xs text-muted-foreground flex flex-col md:flex-row justify-between items-center gap-4">
+                    <span>&copy; {new Date().getFullYear()} Hong Kong Cardlife Technology Co., Limited. All rights reserved.</span>
+                    <span>BRC: 79841839</span>
                 </div>
             </div>
         </footer>

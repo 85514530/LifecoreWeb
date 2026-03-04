@@ -1,5 +1,5 @@
 import { m } from "framer-motion"
-import { Gift, TrendingUp, Calendar, ShieldCheck, Zap, CreditCard } from "lucide-react"
+import { Gift, TrendingUp, Calendar } from "lucide-react"
 
 export default function Product() {
     const supportedCards = [

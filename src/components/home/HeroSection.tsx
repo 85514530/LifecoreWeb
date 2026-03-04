@@ -1,5 +1,5 @@
 import { m, useScroll, useTransform } from "framer-motion"
-import { ArrowRight, Star, ShieldCheck } from "lucide-react"
+import { ArrowRight } from "lucide-react"
 import { useRef } from "react"
 import homeDemo from "../../assets/home_demo.png"
 
