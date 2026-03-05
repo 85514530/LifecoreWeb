@@ -6,28 +6,28 @@ const steps = [
     {
         id: "01",
         title: "Download & Install",
-        description: "Get the CardLife app from the App Store or Google Play to start your trading journey.",
+        description: "Get the CardLife app from the App Store or Google Play to start your journey.",
         icon: Phone,
         color: "bg-blue-500"
     },
     {
         id: "02",
         title: "Create Account",
-        description: "Sign up in seconds. Verify your identity to unlock higher trading limits.",
+        description: "Sign up in seconds. Verify your identity to unlock higher limits.",
         icon: UserPlus,
         color: "bg-purple-500"
     },
     {
         id: "03",
-        title: "Upload Card",
-        description: "Select your gift card type, upload the image, and enter the details.",
+        title: "Upload Details",
+        description: "Select your product type, upload the image, and enter the details.",
         icon: Upload,
         color: "bg-pink-500"
     },
     {
         id: "04",
         title: "Instant Verification",
-        description: "Our automated system verifies your card validity in real-time.",
+        description: "Our automated system verifies your product validity in real-time.",
         icon: ShieldCheck,
         color: "bg-orange-500"
     },
@@ -63,10 +63,10 @@ export default function FeatureSteps() {
                 >
                     <span className="text-primary font-bold uppercase tracking-widest text-sm">How it works</span>
                     <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-foreground mt-4 mb-6">
-                        From Card to Cash in <span className="text-primary">Minutes</span>
+                        From Processing to Completion in <span className="text-primary">Minutes</span>
                     </h2>
                     <p className="text-xl text-muted-foreground">
-                        Our streamlined process ensures maximum efficiency and security for every trade.
+                        Our streamlined process ensures maximum efficiency and security for every transaction.
                     </p>
                 </m.div>
 

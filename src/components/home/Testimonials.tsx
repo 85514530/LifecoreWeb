@@ -4,13 +4,13 @@ import { Quote } from "lucide-react"
 export default function Testimonials() {
     const testimonials = [
         {
-            content: "CardLife has completely changed how I trade gift cards. The rates are unbeatable and payment is always instant.",
-            author: "Alex Johnson",
-            role: "Power Trader",
+            content: "CardLife has completely changed how I transact. The rates are unbeatable and payment is always instant.",
+            author: "Michael O.",
+            role: "Power User",
             color: "bg-blue-500"
         },
         {
-            content: "I was skeptical at first, but after my first trade getting cleared in 2 mins, I was hooked. Best platform in Nigeria hands down.",
+            content: "I was skeptical at first, but after my first transaction getting cleared in 2 mins, I was hooked. Best platform in Nigeria hands down.",
             author: "Sarah Williams",
             role: "Verified User",
             color: "bg-purple-500"
@@ -22,7 +22,7 @@ export default function Testimonials() {
             color: "bg-green-500"
         },
         {
-            content: "The app is so smooth. I love the dark mode and the way it tracks my trading history.",
+            content: "The app is so smooth. I love the dark mode and the way it tracks my history.",
             author: "Jessica Lee",
             role: "Beta Tester",
             color: "bg-pink-500"
@@ -34,9 +34,9 @@ export default function Testimonials() {
             color: "bg-orange-500"
         },
         {
-            content: "Been trading for years, CardLife is the only one I trust with large volume transactions.",
-            author: "Emmanuel K.",
-            role: "VIP Trader",
+            content: "Been a user for years, CardLife is the only one I trust with large volume transactions.",
+            author: "David E.",
+            role: "VIP User",
             color: "bg-indigo-500"
         }
     ]
@@ -57,9 +57,9 @@ export default function Testimonials() {
                     transition={{ duration: 0.5 }}
                 >
                     <Quote className="w-12 h-12 text-primary mx-auto mb-6 opacity-50" />
-                    <h2 className="text-4xl md:text-6xl font-bold tracking-tight mb-6">Built for Traders</h2>
-                    <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-                        Don't just take our word for it. Join thousands of users who trade daily on CardLife.
+                    <h2 className="text-4xl md:text-6xl font-bold tracking-tight mb-6">Built for Users</h2>
+                    <p className="text-xl text-muted-foreground">
+                        Don't just take our word for it. Join thousands of users who transact daily on CardLife.
                     </p>
                 </m.div>
 

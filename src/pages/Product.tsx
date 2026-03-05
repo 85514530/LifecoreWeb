@@ -2,20 +2,7 @@ import { m } from "framer-motion"
 import { Gift, TrendingUp, Calendar } from "lucide-react"
 
 export default function Product() {
-    const supportedCards = [
-        { name: 'Steam', color: 'bg-[#1b2838]' },
-        { name: 'iTunes', color: 'bg-gradient-to-r from-[#fc5c7d] to-[#6a82fb]' },
-        { name: 'Google Play', color: 'bg-gradient-to-tr from-[#34a853] to-[#fbbc05]' },
-        { name: 'Amazon', color: 'bg-[#232f3e]' },
-        { name: 'Nike', color: 'bg-black' },
-        { name: 'Sephora', color: 'bg-black' },
-        { name: 'Razer Gold', color: 'bg-[#00ff00] text-black' },
-        { name: 'Vanilla', color: 'bg-[#bebdb8] text-black' },
-        { name: 'Nordstrom', color: 'bg-black' },
-        { name: 'eBay', color: 'bg-[#e53238]' },
-        { name: 'Amex', color: 'bg-[#006fcf]' },
-        { name: 'Visa', color: 'bg-[#1a1f71]' }
-    ]
+
 
     return (
         <div className="min-h-screen bg-background">
@@ -32,15 +19,15 @@ export default function Product() {
                     >
                         <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-foreground mb-8 leading-tight">
                             Most reliable <span className="text-primary relative inline-block">
-                                gift card
+                                digital product
                                 <svg className="absolute w-full h-3 -bottom-1 left-0 text-primary/20" viewBox="0 0 100 10" preserveAspectRatio="none">
                                     <path d="M0 5 Q 50 10 100 5" stroke="currentColor" strokeWidth="8" fill="none" />
                                 </svg>
                             </span>
-                            <br /> trading platform
+                            <br /> service platform
                         </h1>
                         <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto mb-10 leading-relaxed">
-                            Experience the safest, fastest, and most secure way to trade.
+                            Experience the safest, fastest, and most secure way to transact.
                             Download our app today and unlock exclusives.
                         </p>
 
@@ -107,7 +94,7 @@ export default function Product() {
                                     </div>
                                     <div>
                                         <h3 className="text-xl font-bold mb-2">Volume Bonuses</h3>
-                                        <p className="text-muted-foreground">Trade at least ₦20,000 worth of cards to collect special daily bonuses.</p>
+                                        <p className="text-muted-foreground">Process at least ₦20,000 worth of products to collect special daily bonuses.</p>
                                     </div>
                                 </div>
                             </m.div>
@@ -154,45 +141,6 @@ export default function Product() {
                 </div>
             </section>
 
-            {/* Supported Cards Section */}
-            <section className="py-24 bg-secondary/10">
-                <div className="container mx-auto px-4">
-                    <h2 className="text-3xl md:text-5xl font-bold text-center mb-16">
-                        Supported <span className="text-primary">Gift Cards</span>
-                    </h2>
-
-                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
-                        {supportedCards.map((card, index) => (
-                            <m.div
-                                key={card.name}
-                                initial={{ opacity: 0, scale: 0.9 }}
-                                whileInView={{ opacity: 1, scale: 1 }}
-                                viewport={{ once: true }}
-                                transition={{ delay: index * 0.05 }}
-                                whileHover={{ y: -5, scale: 1.02 }}
-                                className={`
-                                    relative aspect-[1.6] rounded-xl overflow-hidden shadow-lg cursor-pointer group
-                                    ${card.color}
-                                `}
-                            >
-                                <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors" />
-                                <div className="absolute inset-0 flex items-center justify-center p-4">
-                                    <span className={`font-bold text-center ${card.color.includes('text-black') ? 'text-black' : 'text-white'}`}>
-                                        {card.name}
-                                    </span>
-                                </div>
-                            </m.div>
-                        ))}
-                    </div>
-
-                    <div className="mt-12 text-center">
-                        <p className="text-muted-foreground mb-6">And 50+ other popular gift cards supported</p>
-                        <button className="text-primary font-semibold hover:underline flex items-center gap-2 mx-auto">
-                            View All Supported Cards <TrendingUp className="w-4 h-4" />
-                        </button>
-                    </div>
-                </div>
-            </section>
         </div>
     )
 }

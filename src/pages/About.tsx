@@ -35,13 +35,13 @@ export default function About() {
                         transition={{ duration: 0.8 }}
                     >
                         <p className="text-xl leading-relaxed text-center font-medium">
-                            Introducing <span className="text-primary font-bold">CardLife</span>, the largest and most trusted online platform for gift card trading!
+                            Introducing <span className="text-primary font-bold">CardLife</span>, the largest and most trusted online platform for digital products!
                         </p>
 
                         <div className="my-12 p-8 bg-secondary/30 rounded-2xl border border-border">
                             <p className="text-center text-lg mb-6">
                                 At CardLife, we believe in providing our valued customers with a secure, caring, and efficient experience,
-                                ensuring that you can sell any gift card without worrying about security or rates.
+                                ensuring that you can process any digital asset without worrying about security or rates.
                             </p>
                             <div className="border-t border-border/50 pt-6">
                                 <h3 className="text-xl font-bold mb-4 text-center">Company Information</h3>
@@ -73,7 +73,7 @@ export default function About() {
                                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
                                 </div>
                                 <h3 className="font-bold text-lg mb-2">Efficient</h3>
-                                <p className="text-muted-foreground text-sm">Best exchange rates in the market, updated daily.</p>
+                                <p className="text-muted-foreground text-sm">Best transaction rates in the market, updated daily.</p>
                             </div>
                         </div>
                     </m.div>

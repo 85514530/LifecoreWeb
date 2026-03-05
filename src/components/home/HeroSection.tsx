@@ -1,7 +1,6 @@
 import { m, useScroll, useTransform } from "framer-motion"
 import { ArrowRight } from "lucide-react"
 import { useRef } from "react"
-import homeDemo from "../../assets/home_demo.png"
 
 export default function HeroSection() {
     const targetRef = useRef(null)
@@ -38,7 +37,7 @@ export default function HeroSection() {
                             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm"
                         >
                             <span className="flex h-2 w-2 rounded-full bg-green-500"></span>
-                            <span className="text-sm font-medium text-gray-300">Trusted by 3M+ Traders</span>
+                            <span className="text-sm font-medium text-gray-300">Trusted by 3M+ Users</span>
                         </m.div>
 
                         <m.h1
@@ -49,7 +48,7 @@ export default function HeroSection() {
                         >
                             Turn your <br />
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-blue-400 to-purple-400 animate-gradient-x">
-                                Gift Cards
+                                Digital Products
                             </span> <br />
                             into Cash instantly.
                         </m.h1>
@@ -60,7 +59,7 @@ export default function HeroSection() {
                             transition={{ duration: 0.6, delay: 0.2 }}
                             className="text-lg text-gray-400 max-w-lg leading-relaxed"
                         >
-                            The safest, fastest, and most reliable platform to trade.
+                            The safest, fastest, and most reliable platform to use.
                             Experience bank-grade security and instant payouts today.
                         </m.p>
 
@@ -106,7 +105,14 @@ export default function HeroSection() {
 
                             {/* Phone Frame Mockup */}
                             <div className="relative mx-auto w-[300px] h-[600px] bg-black rounded-[45px] border-[8px] border-zinc-800 shadow-2xl overflow-hidden hidden md:block">
-                                <img src={homeDemo} alt="App Interface" className="w-full h-full object-cover" />
+                                <div className="absolute inset-0 bg-gradient-to-b from-zinc-800 to-black">
+                                    <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:20px_20px]" />
+                                    <div className="absolute top-1/4 left-1/4 w-32 h-32 bg-primary/20 blur-3xl rounded-full" />
+                                    <div className="absolute bottom-1/4 right-1/4 w-32 h-32 bg-purple-500/20 blur-3xl rounded-full" />
+                                    <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 flex items-center justify-center">
+                                        <div className="text-zinc-500 font-medium tracking-widest text-sm uppercase">Secure App</div>
+                                    </div>
+                                </div>
 
                                 {/* Floating Overlay Elements */}
                                 <m.div
