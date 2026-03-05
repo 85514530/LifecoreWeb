@@ -4,39 +4,39 @@ import { Quote } from "lucide-react"
 export default function Testimonials() {
     const testimonials = [
         {
-            content: "CardLife has completely changed how I transact. The rates are unbeatable and payment is always instant.",
+            content: "CardLife has completely transformed our IT infrastructure. The system is incredibly reliable and scaling is effortless.",
             author: "Michael O.",
-            role: "Power User",
+            role: "CTO, TechCorp",
             color: "bg-blue-500"
         },
         {
-            content: "I was skeptical at first, but after my first transaction getting cleared in 2 mins, I was hooked. Best platform in Nigeria hands down.",
+            content: "We were struggling with our legacy systems, but their cloud solutions helped us modernize in under a month. Best partner hands down.",
             author: "Sarah Williams",
-            role: "Verified User",
+            role: "Engineering Lead",
             color: "bg-purple-500"
         },
         {
-            content: "Customer support is top notch. Had an issue with my upload and they verified it manually within minutes.",
+            content: "Customer support is top notch. Had an issue with API integration and they helped us resolve it manually within minutes.",
             author: "Michael Brown",
-            role: "Daily User",
+            role: "Software Architect",
             color: "bg-green-500"
         },
         {
-            content: "The app is so smooth. I love the dark mode and the way it tracks my history.",
+            content: "The dashboard is so smooth. I love the dark mode and the way it monitors our global server clusters.",
             author: "Jessica Lee",
-            role: "Beta Tester",
+            role: "DevOps Engineer",
             color: "bg-pink-500"
         },
         {
-            content: "Finally a platform that doesn't rip you off with hidden fees. What you see is what you get.",
+            content: "Finally a platform that doesn't rip you off with hidden enterprise fees. Transparent pricing and stellar uptime.",
             author: "David Chen",
-            role: "Merchant",
+            role: "Product Manager",
             color: "bg-orange-500"
         },
         {
-            content: "Been a user for years, CardLife is the only one I trust with large volume transactions.",
+            content: "Been a client for years, CardLife is the only company I trust with handling our large-scale enterprise deployments.",
             author: "David E.",
-            role: "VIP User",
+            role: "VP of Engineering",
             color: "bg-indigo-500"
         }
     ]
@@ -57,9 +57,9 @@ export default function Testimonials() {
                     transition={{ duration: 0.5 }}
                 >
                     <Quote className="w-12 h-12 text-primary mx-auto mb-6 opacity-50" />
-                    <h2 className="text-4xl md:text-6xl font-bold tracking-tight mb-6">Built for Users</h2>
+                    <h2 className="text-4xl md:text-6xl font-bold tracking-tight mb-6">Built for Enterprise</h2>
                     <p className="text-xl text-muted-foreground">
-                        Don't just take our word for it. Join thousands of users who transact daily on CardLife.
+                        Don't just take our word for it. Join hundreds of companies running securely on CardLife.
                     </p>
                 </m.div>
 

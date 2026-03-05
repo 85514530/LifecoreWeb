@@ -13,7 +13,7 @@ export default function Footer() {
                             <span className="text-xl font-bold tracking-tight text-foreground">CardLife</span>
                         </Link>
                         <p className="mt-4 text-sm text-muted-foreground">
-                            Operated by Hong Kong Cardlife Technology Co., Limited. A leading platform for secure and efficient digital product services.
+                            Operated by Hong Kong Cardlife Technology Co., Limited. A leading provider of innovative enterprise software solutions.
                         </p>
                         <div className="mt-6 space-y-2 text-sm text-muted-foreground">
                             <p><strong>Address:</strong> UNIT 617, 6/F KING CTR 5-9 KA HING RD KWAI CHUNG HONG KONG</p>

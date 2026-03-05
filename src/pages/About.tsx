@@ -20,7 +20,7 @@ export default function About() {
                         animate={{ opacity: 1 }}
                         transition={{ duration: 0.6, delay: 0.2 }}
                     >
-                        Building trust in every transaction
+                        Empowering businesses through cutting-edge technology
                     </m.p>
                 </div>
             </section>
@@ -35,13 +35,13 @@ export default function About() {
                         transition={{ duration: 0.8 }}
                     >
                         <p className="text-xl leading-relaxed text-center font-medium">
-                            Introducing <span className="text-primary font-bold">CardLife</span>, the largest and most trusted online platform for digital products!
+                            Introducing <span className="text-primary font-bold">CardLife</span>, a premier provider of enterprise software and cloud infrastructure solutions!
                         </p>
 
                         <div className="my-12 p-8 bg-secondary/30 rounded-2xl border border-border">
                             <p className="text-center text-lg mb-6">
-                                At CardLife, we believe in providing our valued customers with a secure, caring, and efficient experience,
-                                ensuring that you can process any digital asset without worrying about security or rates.
+                                At CardLife, we believe in providing our clients with secure, scalable, and highly available systems,
+                                ensuring that your business can operate efficiently without worrying about downtime or infrastructure complexity.
                             </p>
                             <div className="border-t border-border/50 pt-6">
                                 <h3 className="text-xl font-bold mb-4 text-center">Company Information</h3>
@@ -59,21 +59,21 @@ export default function About() {
                                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                                 </div>
                                 <h3 className="font-bold text-lg mb-2">Secure</h3>
-                                <p className="text-muted-foreground text-sm">Bank-grade security for all your transactions and data.</p>
+                                <p className="text-muted-foreground text-sm">Enterprise-grade security for your data and applications.</p>
                             </div>
                             <div className="text-center p-6 rounded-xl hover:bg-secondary/30 transition-colors">
                                 <div className="w-12 h-12 bg-primary/20 text-primary rounded-full flex items-center justify-center mx-auto mb-4">
                                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                                 </div>
-                                <h3 className="font-bold text-lg mb-2">Fast</h3>
-                                <p className="text-muted-foreground text-sm">Instant processing and quick payouts to your account.</p>
+                                <h3 className="font-bold text-lg mb-2">Scalable</h3>
+                                <p className="text-muted-foreground text-sm">Cloud-native infrastructure that grows with your business.</p>
                             </div>
                             <div className="text-center p-6 rounded-xl hover:bg-secondary/30 transition-colors">
                                 <div className="w-12 h-12 bg-primary/20 text-primary rounded-full flex items-center justify-center mx-auto mb-4">
                                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
                                 </div>
-                                <h3 className="font-bold text-lg mb-2">Efficient</h3>
-                                <p className="text-muted-foreground text-sm">Best transaction rates in the market, updated daily.</p>
+                                <h3 className="font-bold text-lg mb-2">Reliable</h3>
+                                <p className="text-muted-foreground text-sm">99.9% uptime guarantee with 24/7 dedicated support.</p>
                             </div>
                         </div>
                     </m.div>

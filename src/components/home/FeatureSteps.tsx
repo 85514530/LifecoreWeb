@@ -5,36 +5,36 @@ import { useRef } from "react"
 const steps = [
     {
         id: "01",
-        title: "Download & Install",
-        description: "Get the CardLife app from the App Store or Google Play to start your journey.",
+        title: "Discovery",
+        description: "Analyze your business requirements and identify areas for digital transformation.",
         icon: Phone,
         color: "bg-blue-500"
     },
     {
         id: "02",
-        title: "Create Account",
-        description: "Sign up in seconds. Verify your identity to unlock higher limits.",
+        title: "Strategy",
+        description: "Develop a comprehensive cloud architecture tailored to your scaling needs.",
         icon: UserPlus,
         color: "bg-purple-500"
     },
     {
         id: "03",
-        title: "Upload Details",
-        description: "Select your product type, upload the image, and enter the details.",
+        title: "Implementation",
+        description: "Our engineers build and integrate the components seamlessly with your systems.",
         icon: Upload,
         color: "bg-pink-500"
     },
     {
         id: "04",
-        title: "Instant Verification",
-        description: "Our automated system verifies your product validity in real-time.",
+        title: "Deployment",
+        description: "Rigorous testing followed by a smooth, zero-downtime deployment.",
         icon: ShieldCheck,
         color: "bg-orange-500"
     },
     {
         id: "05",
-        title: "Get Paid",
-        description: "Withdraw funds instantly to your bank account or crypto wallet.",
+        title: "Scaling",
+        description: "Continuous monitoring and auto-scaling to handle your growing user base.",
         icon: Wallet,
         color: "bg-green-500"
     },
@@ -61,12 +61,12 @@ export default function FeatureSteps() {
                     viewport={{ once: true }}
                     transition={{ duration: 0.6 }}
                 >
-                    <span className="text-primary font-bold uppercase tracking-widest text-sm">How it works</span>
+                    <span className="text-primary font-bold uppercase tracking-widest text-sm">Our Process</span>
                     <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-foreground mt-4 mb-6">
-                        From Processing to Completion in <span className="text-primary">Minutes</span>
+                        From Concept to Deployment in <span className="text-primary">Record Time</span>
                     </h2>
                     <p className="text-xl text-muted-foreground">
-                        Our streamlined process ensures maximum efficiency and security for every transaction.
+                        Our streamlined methodology ensures maximum efficiency and reliability for every project.
                     </p>
                 </m.div>
 

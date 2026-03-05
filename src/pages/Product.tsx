@@ -18,17 +18,17 @@ export default function Product() {
                         transition={{ duration: 0.6, ease: "easeOut" }}
                     >
                         <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-foreground mb-8 leading-tight">
-                            Most reliable <span className="text-primary relative inline-block">
-                                digital product
+                            Next-Generation <span className="text-primary relative inline-block">
+                                Enterprise Cloud
                                 <svg className="absolute w-full h-3 -bottom-1 left-0 text-primary/20" viewBox="0 0 100 10" preserveAspectRatio="none">
                                     <path d="M0 5 Q 50 10 100 5" stroke="currentColor" strokeWidth="8" fill="none" />
                                 </svg>
                             </span>
-                            <br /> service platform
+                            <br /> Architecture
                         </h1>
                         <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto mb-10 leading-relaxed">
-                            Experience the safest, fastest, and most secure way to transact.
-                            Download our app today and unlock exclusives.
+                            Experience the most scalable, reliable, and secure platform to build upon.
+                            Download our mobile app to manage your infrastructure anywhere.
                         </p>
 
                         <div className="flex flex-col sm:flex-row justify-center gap-4">
@@ -59,12 +59,12 @@ export default function Product() {
                 </div>
             </section>
 
-            {/* Rewards Grid Section */}
+            {/* Features Grid Section */}
             <section className="py-24 bg-white dark:bg-zinc-900">
                 <div className="container mx-auto px-4">
                     <div className="text-center mb-16">
-                        <span className="text-primary font-semibold tracking-wider uppercase text-sm">Rich Rewards</span>
-                        <h2 className="text-3xl md:text-5xl font-bold mt-2">Get rewarded every day</h2>
+                        <span className="text-primary font-semibold tracking-wider uppercase text-sm">Platform Capabilities</span>
+                        <h2 className="text-3xl md:text-5xl font-bold mt-2">Built for modern teams</h2>
                     </div>
 
                     <div className="grid md:grid-cols-2 gap-8 items-center">
@@ -78,8 +78,8 @@ export default function Product() {
                                         <Calendar className="w-6 h-6" />
                                     </div>
                                     <div>
-                                        <h3 className="text-xl font-bold mb-2">Daily Check-ins</h3>
-                                        <p className="text-muted-foreground">Log in daily to unlock progressive rewards. Don't break your streak!</p>
+                                        <h3 className="text-xl font-bold mb-2">Real-time Analytics</h3>
+                                        <p className="text-muted-foreground">Monitor your system performance and user metrics instantly with our advanced dashboards.</p>
                                     </div>
                                 </div>
                             </m.div>
@@ -93,8 +93,8 @@ export default function Product() {
                                         <TrendingUp className="w-6 h-6" />
                                     </div>
                                     <div>
-                                        <h3 className="text-xl font-bold mb-2">Volume Bonuses</h3>
-                                        <p className="text-muted-foreground">Process at least ₦20,000 worth of products to collect special daily bonuses.</p>
+                                        <h3 className="text-xl font-bold mb-2">Seamless Integration</h3>
+                                        <p className="text-muted-foreground">Connect with your existing tools effortlessly using our comprehensive API suite.</p>
                                     </div>
                                 </div>
                             </m.div>
@@ -108,8 +108,8 @@ export default function Product() {
                                         <Gift className="w-6 h-6" />
                                     </div>
                                     <div>
-                                        <h3 className="text-xl font-bold mb-2">Sunday Special</h3>
-                                        <p className="text-muted-foreground">Double rewards on weekends! Make your weekends more profitable.</p>
+                                        <h3 className="text-xl font-bold mb-2">Automated Workflows</h3>
+                                        <p className="text-muted-foreground">Reduce manual tasks and improve team efficiency with our powerful automation tools.</p>
                                     </div>
                                 </div>
                             </m.div>
@@ -122,17 +122,17 @@ export default function Product() {
                                 <div className="grid grid-cols-4 gap-4 mb-6">
                                     {Array.from({ length: 4 }).map((_, i) => (
                                         <div key={i} className={`aspect-square rounded-2xl flex items-center justify-center ${i === 3 ? 'bg-primary text-primary-foreground' : 'bg-secondary'}`}>
-                                            <Gift className={`w-6 h-6 ${i === 3 ? 'animate-bounce' : 'opacity-50'}`} />
+                                            <TrendingUp className={`w-6 h-6 ${i === 3 ? 'animate-pulse' : 'opacity-50'}`} />
                                         </div>
                                     ))}
                                 </div>
                                 <div className="space-y-4">
                                     <div className="h-2 bg-secondary rounded-full overflow-hidden">
-                                        <div className="h-full w-3/4 bg-primary rounded-full" />
+                                        <div className="h-full w-3/4 bg-primary rounded-full transition-all duration-1000" />
                                     </div>
                                     <div className="flex justify-between text-sm font-medium">
-                                        <span>Progress to next reward</span>
-                                        <span className="text-primary">75%</span>
+                                        <span>System Status Overview</span>
+                                        <span className="text-primary">All Systems Operational</span>
                                     </div>
                                 </div>
                             </div>
