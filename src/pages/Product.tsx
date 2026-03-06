@@ -37,7 +37,7 @@ export default function Product() {
                                 whileTap={{ scale: 0.95 }}
                                 className="bg-foreground text-background p-0 rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-all font-bold"
                             >
-                                <a href="mailto:cardlife.hk@gmail.com" className="w-full h-full px-8 py-4 flex items-center justify-center gap-3">
+                                <a href="mailto:lifecore.hk@gmail.com" className="w-full h-full px-8 py-4 flex items-center justify-center gap-3">
                                     Get Cloud Trial
                                 </a>
                             </m.button>
@@ -46,7 +46,7 @@ export default function Product() {
                                 whileTap={{ scale: 0.95 }}
                                 className="bg-secondary text-foreground p-0 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all font-bold border border-border"
                             >
-                                <a href="mailto:cardlife.hk@gmail.com" className="w-full h-full px-8 py-4 flex items-center justify-center gap-3">
+                                <a href="mailto:lifecore.hk@gmail.com" className="w-full h-full px-8 py-4 flex items-center justify-center gap-3">
                                     View Documentation
                                 </a>
                             </m.button>

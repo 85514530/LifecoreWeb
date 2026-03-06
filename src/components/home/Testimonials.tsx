@@ -4,7 +4,7 @@ import { Quote } from "lucide-react"
 export default function Testimonials() {
     const testimonials = [
         {
-            content: "CardLife has completely transformed our IT infrastructure. The system is incredibly reliable and scaling is effortless.",
+            content: "Lifecore has completely transformed our IT infrastructure. The system is incredibly reliable and scaling is effortless.",
             author: "Michael O.",
             role: "CTO, TechCorp",
             color: "bg-blue-500"
@@ -34,7 +34,7 @@ export default function Testimonials() {
             color: "bg-orange-500"
         },
         {
-            content: "Been a client for years, CardLife is the only company I trust with handling our large-scale enterprise deployments.",
+            content: "Been a client for years, Lifecore is the only company I trust with handling our large-scale enterprise deployments.",
             author: "David E.",
             role: "VP of Engineering",
             color: "bg-indigo-500"
@@ -59,7 +59,7 @@ export default function Testimonials() {
                     <Quote className="w-12 h-12 text-primary mx-auto mb-6 opacity-50" />
                     <h2 className="text-4xl md:text-6xl font-bold tracking-tight mb-6">Built for Enterprise</h2>
                     <p className="text-xl text-muted-foreground">
-                        Don't just take our word for it. Join hundreds of companies running securely on CardLife.
+                        Don't just take our word for it. Join hundreds of companies running securely on Lifecore.
                     </p>
                 </m.div>
 

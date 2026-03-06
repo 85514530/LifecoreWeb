@@ -19,8 +19,8 @@ export default function Header() {
             <div className="container mx-auto flex h-16 items-center justify-between px-4">
                 <div className="flex items-center gap-2">
                     <Link to="/" className="flex items-center gap-2">
-                        <img src={logo} alt="CardLife Logo" className="h-8 w-auto" />
-                        <span className="text-xl font-bold tracking-tight text-foreground">CardLife</span>
+                        <img src={logo} alt="Lifecore Logo" className="h-8 w-auto" />
+                        <span className="text-xl font-bold tracking-tight text-foreground">Lifecore</span>
                     </Link>
                 </div>
 

@@ -35,18 +35,18 @@ export default function About() {
                         transition={{ duration: 0.8 }}
                     >
                         <p className="text-xl leading-relaxed text-center font-medium">
-                            Introducing <span className="text-primary font-bold">CardLife</span>, a premier provider of enterprise software and cloud infrastructure solutions!
+                            Introducing <span className="text-primary font-bold">Lifecore</span>, a premier provider of enterprise software and cloud infrastructure solutions!
                         </p>
 
                         <div className="my-12 p-8 bg-secondary/30 rounded-2xl border border-border">
                             <p className="text-center text-lg mb-6">
-                                At CardLife, we believe in providing our clients with secure, scalable, and highly available systems,
+                                At Lifecore, we believe in providing our clients with secure, scalable, and highly available systems,
                                 ensuring that your business can operate efficiently without worrying about downtime or infrastructure complexity.
                             </p>
                             <div className="border-t border-border/50 pt-6">
                                 <h3 className="text-xl font-bold mb-4 text-center">Company Information</h3>
                                 <div className="space-y-2 text-muted-foreground text-center">
-                                    <p>CardLife is operated by <strong>Hong Kong Cardlife Technology Co., Limited</strong></p>
+                                    <p>Lifecore is operated by <strong>Hong Kong Lifecore Technology Co., Limited</strong></p>
                                     <p><strong>Registered Address:</strong> UNIT 617, 6/F KING CTR 5-9 KA HING RD KWAI CHUNG HONG KONG</p>
                                     <p><strong>Contact Number:</strong> <span className="opacity-40">+852 95341938</span></p>
                                 </div>
