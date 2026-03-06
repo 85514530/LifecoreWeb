@@ -36,7 +36,7 @@ export default function Privacy() {
 
           <h2 className="text-xl font-bold mt-8 mb-4 border-b pb-2">1. Introduction</h2>
           <p>
-            Welcome to Cardlife. This Privacy Policy explains how Hong Kong Cardlife Technology Co., Limited ("we," "us," or "our") collects, uses, and shares information about you when you use our mobile application, Cardlife (the "App").
+            Welcome to Cardlife. This Privacy Policy explains how Hong Kong Cardlife Technology Co., Limited ("we," "us," or "our") collects, uses, and shares information about you when you use our enterprise software platform and mobile application, Cardlife (the "Platform").
           </p>
 
           <h2 className="text-xl font-bold mt-8 mb-4 border-b pb-2">2. Information We Collect</h2>

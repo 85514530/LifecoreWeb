@@ -1,4 +1,4 @@
-import { Phone, UserPlus, Upload, ShieldCheck, Wallet } from 'lucide-react'
+import { Phone, UserPlus, Upload, ShieldCheck, TrendingUp } from 'lucide-react'
 import { m, useScroll, useTransform } from "framer-motion"
 import { useRef } from "react"
 
@@ -35,7 +35,7 @@ const steps = [
         id: "05",
         title: "Scaling",
         description: "Continuous monitoring and auto-scaling to handle your growing user base.",
-        icon: Wallet,
+        icon: TrendingUp,
         color: "bg-green-500"
     },
 ]
