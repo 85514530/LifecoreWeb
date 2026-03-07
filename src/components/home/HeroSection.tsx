@@ -69,7 +69,7 @@ export default function HeroSection() {
                                 whileTap={{ scale: 0.95 }}
                                 className="bg-primary text-white p-0 rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-all font-bold"
                             >
-                                <a href="mailto:cardlife.hk@gmail.com" className="w-full h-full px-8 py-4 flex items-center justify-center gap-3">
+                                <a href="mailto:developer@cardlifefetch.com" className="w-full h-full px-8 py-4 flex items-center justify-center gap-3">
                                     Get Started
                                     <ArrowRight className="w-5 h-5" />
                                 </a>
@@ -79,7 +79,7 @@ export default function HeroSection() {
                                 whileTap={{ scale: 0.95 }}
                                 className="bg-white/10 text-white p-0 rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-all font-bold border border-white/10"
                             >
-                                <a href="mailto:cardlife.hk@gmail.com" className="w-full h-full px-8 py-4 flex items-center justify-center gap-3">
+                                <a href="mailto:developer@cardlifefetch.com" className="w-full h-full px-8 py-4 flex items-center justify-center gap-3">
                                     Contact Sales
                                 </a>
                             </m.button>

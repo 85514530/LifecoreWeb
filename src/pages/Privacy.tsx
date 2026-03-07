@@ -72,7 +72,7 @@ export default function Privacy() {
             <li>The right to withdraw consent.</li>
           </ul>
           <p className="mt-4">
-            To exercise any of these rights, please contact us at <a href="mailto:cardlife.hk@gmail.com" className="text-primary underline">cardlife.hk@gmail.com</a>.
+            To exercise any of these rights, please contact us at <a href="mailto:developer@cardlifefetch.com" className="text-primary underline">developer@cardlifefetch.com</a>.
           </p>
 
           <h2 className="text-xl font-bold mt-8 mb-4 border-b pb-2">6. Children's Privacy</h2>
@@ -88,7 +88,7 @@ export default function Privacy() {
           <h2 className="text-xl font-bold mt-8 mb-4 border-b pb-2">8. Contact Us</h2>
           <p>If you have any questions about this Privacy Policy, please contact us:</p>
           <ul className="list-disc pl-5 mt-4 space-y-2 mb-10">
-            <li><strong>By email:</strong> <a href="mailto:cardlife.hk@gmail.com" className="text-primary underline">cardlife.hk@gmail.com</a></li>
+            <li><strong>By email:</strong> <a href="mailto:developer@cardlifefetch.com" className="text-primary underline">developer@cardlifefetch.com</a></li>
             <li><strong>By phone:</strong> <span className="opacity-40">+852 95341938</span></li>
             <li><strong>By visiting our registered office:</strong> UNIT 617, 6/F KING CTR 5-9 KA HING RD KWAI CHUNG HONG KONG</li>
           </ul>
