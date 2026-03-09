@@ -36,7 +36,7 @@ export default function Privacy() {
 
           <h2 className="text-xl font-bold mt-8 mb-4 border-b pb-2">1. Introduction</h2>
           <p>
-            Welcome to Lifecore. This Privacy Policy explains how Hong Kong Lifecore Technology Co., Limited ("we," "us," or "our") collects, uses, and shares information about you when you use our enterprise software platform and mobile application, Lifecore (the "Platform").
+            Welcome to Lifecore. This Privacy Policy explains how Hong Kong Cardlife Technology Co., Limited ("we," "us," or "our") collects, uses, and shares information about you when you use our enterprise software platform and mobile application, Lifecore (the "Platform").
           </p>
 
           <h2 className="text-xl font-bold mt-8 mb-4 border-b pb-2">2. Information We Collect</h2>
@@ -58,7 +58,7 @@ export default function Privacy() {
 
           <h2 className="text-xl font-bold mt-8 mb-4 border-b pb-2">4. Data Storage and Transfer</h2>
           <p>
-            Your information may be transferred to — and maintained on — computers located outside of your state, province, country, or other governmental jurisdiction where the data protection laws may differ from those of your jurisdiction. Our primary business address is UNIT 617, 6/F KING CTR 5-9 KA HING RD KWAI CHUNG HONG KONG.
+            Your information may be transferred to — and maintained on — computers located outside of your state, province, country, or other governmental jurisdiction where the data protection laws may differ from those of your jurisdiction. Our primary business address is UNIT 617 6/F KING CTR 5-9 KA HING RD, KWAI CHUNG, NT, HK.
           </p>
 
           <h2 className="text-xl font-bold mt-8 mb-4 border-b pb-2">5. Your Data Protection Rights (GDPR/CCPA)</h2>
@@ -90,7 +90,7 @@ export default function Privacy() {
           <ul className="list-disc pl-5 mt-4 space-y-2 mb-10">
             <li><strong>By email:</strong> <a href="mailto:developer@cardlifefetch.com" className="text-primary underline">developer@cardlifefetch.com</a></li>
             <li><strong>By phone:</strong> <span className="opacity-40">+852 95341938</span></li>
-            <li><strong>By visiting our registered office:</strong> UNIT 617, 6/F KING CTR 5-9 KA HING RD KWAI CHUNG HONG KONG</li>
+            <li><strong>By visiting our registered office:</strong> UNIT 617 6/F KING CTR 5-9 KA HING RD, KWAI CHUNG, NT, HK</li>
           </ul>
         </article>
       </main>

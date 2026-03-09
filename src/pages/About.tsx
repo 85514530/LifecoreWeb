@@ -46,8 +46,8 @@ export default function About() {
                             <div className="border-t border-border/50 pt-6">
                                 <h3 className="text-xl font-bold mb-4 text-center">Company Information</h3>
                                 <div className="space-y-2 text-muted-foreground text-center">
-                                    <p>Lifecore is operated by <strong>Hong Kong Lifecore Technology Co., Limited</strong></p>
-                                    <p><strong>Registered Address:</strong> UNIT 617, 6/F KING CTR 5-9 KA HING RD KWAI CHUNG HONG KONG</p>
+                                    <p>Lifecore is operated by <strong>Hong Kong Cardlife Technology Co., Limited</strong></p>
+                                    <p><strong>Registered Address:</strong> UNIT 617 6/F KING CTR 5-9 KA HING RD, KWAI CHUNG, NT, HK</p>
                                     <p><strong>Contact Number:</strong> <span className="opacity-40">+852 95341938</span></p>
                                 </div>
                             </div>

@@ -13,10 +13,10 @@ export default function Footer() {
                             <span className="text-xl font-bold tracking-tight text-foreground">Lifecore</span>
                         </Link>
                         <p className="mt-4 text-sm text-muted-foreground">
-                            Operated by Hong Kong Lifecore Technology Co., Limited. A leading provider of innovative enterprise software solutions.
+                            Operated by Hong Kong Cardlife Technology Co., Limited. A leading provider of innovative enterprise software solutions.
                         </p>
                         <div className="mt-6 space-y-2 text-sm text-muted-foreground">
-                            <p><strong>Address:</strong> UNIT 617, 6/F KING CTR 5-9 KA HING RD KWAI CHUNG HONG KONG</p>
+                            <p><strong>Registered Address:</strong> UNIT 617 6/F KING CTR 5-9 KA HING RD, KWAI CHUNG, NT, HK</p>
                             <p>Tel: +852 95341938</p>
                         </div>
                     </div>
@@ -35,7 +35,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="mt-8 border-t pt-8 text-center text-xs text-muted-foreground flex flex-col md:flex-row justify-between items-center gap-4">
-                    <span>&copy; {new Date().getFullYear()} Hong Kong Lifecore Technology Co., Limited. All rights reserved.</span>
+                    <span>&copy; 2026 Hong Kong Cardlife Technology Co., Limited. All Rights Reserved.</span>
                     <span>BRC: 79841839</span>
                 </div>
             </div>
